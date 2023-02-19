@@ -1,0 +1,28 @@
+.quation-container-remark {
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  .remark-box {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .remark-desc{
+        width: 69%;
+    }
+    .remark-box-img{
+        width: 29%;
+        img{
+            width: 100%;
+        }
+    }
+    p {
+      border: 1px solid transparent;
+      margin: 0px auto 20px auto;
+      width: 80%;
+      font-size: 200%;
+      font-weight: 350;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.item-box-container-show {
+    height: 250px;
+    background-image: url("../../../media/photos/rastu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.4s ease-in-out;
+   cursor: pointer;
+    h2 {
+      font-weight: bold;
+    }
+   h3{
+      margin-top: 80px;
+   }
+   &:hover{
+      transform: scale(1.07);
+      box-shadow: 0 0 20px  1px rgba(0,0,0,0.7);
+   }
+  }
